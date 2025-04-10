@@ -129,7 +129,7 @@ namespace QuanLyCafe
             this.cboCategory.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.cboCategory.FormattingEnabled = true;
             this.cboCategory.Location = new System.Drawing.Point(5, 5);
-            this.cboCategory.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cboCategory.Margin = new System.Windows.Forms.Padding(5);
             this.cboCategory.Name = "cboCategory";
             this.cboCategory.Size = new System.Drawing.Size(196, 30);
             this.cboCategory.TabIndex = 2;
@@ -164,7 +164,7 @@ namespace QuanLyCafe
             this.cboFoods.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.cboFoods.FormattingEnabled = true;
             this.cboFoods.Location = new System.Drawing.Point(211, 5);
-            this.cboFoods.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cboFoods.Margin = new System.Windows.Forms.Padding(5);
             this.cboFoods.Name = "cboFoods";
             this.cboFoods.Size = new System.Drawing.Size(196, 30);
             this.cboFoods.TabIndex = 3;
@@ -210,7 +210,7 @@ namespace QuanLyCafe
             this.lsvBill.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.lsvBill.HideSelection = false;
             this.lsvBill.Location = new System.Drawing.Point(2, 2);
-            this.lsvBill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lsvBill.Margin = new System.Windows.Forms.Padding(2);
             this.lsvBill.Name = "lsvBill";
             this.lsvBill.Size = new System.Drawing.Size(414, 316);
             this.lsvBill.TabIndex = 0;
@@ -464,7 +464,7 @@ namespace QuanLyCafe
             this.ClientSize = new System.Drawing.Size(1059, 618);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "table_manager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phần mềm Quản lý quán cà phê";

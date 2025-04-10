@@ -507,6 +507,11 @@ namespace QuanLyCafe
             DeleteAccount(username);
         }
 
+        private void IncomeReport_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
 
         #endregion

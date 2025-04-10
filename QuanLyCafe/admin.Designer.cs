@@ -114,12 +114,12 @@
             this.txtSearchAcc = new System.Windows.Forms.TextBox();
             this.dataAccounts = new System.Windows.Forms.DataGridView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.IncomeReport = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.CrystalReport1 = new QuanLyCafe.CrystalReport();
             this.foodBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.quanLyCafeDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.quanLyCafeDataSet = new QuanLyCafe.QuanLyCafeDataSet();
             this.foodTableAdapter = new QuanLyCafe.QuanLyCafeDataSetTableAdapters.FoodTableAdapter();
-            this.IncomeReport = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.CrystalReport1 = new QuanLyCafe.CrystalReport();
             this.tcAdmin.SuspendLayout();
             this.tbBill.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataBills)).BeginInit();
@@ -1190,6 +1190,19 @@
             this.tabPage1.Text = "Báo cáo";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // IncomeReport
+            // 
+            this.IncomeReport.ActiveViewIndex = 0;
+            this.IncomeReport.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IncomeReport.Cursor = System.Windows.Forms.Cursors.Default;
+            this.IncomeReport.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.IncomeReport.Location = new System.Drawing.Point(3, 3);
+            this.IncomeReport.Name = "IncomeReport";
+            this.IncomeReport.ReportSource = this.CrystalReport1;
+            this.IncomeReport.Size = new System.Drawing.Size(762, 372);
+            this.IncomeReport.TabIndex = 0;
+            this.IncomeReport.Load += new System.EventHandler(this.IncomeReport_Load);
+            // 
             // foodBindingSource
             // 
             this.foodBindingSource.DataMember = "Food";
@@ -1208,18 +1221,6 @@
             // foodTableAdapter
             // 
             this.foodTableAdapter.ClearBeforeFill = true;
-            // 
-            // IncomeReport
-            // 
-            this.IncomeReport.ActiveViewIndex = 0;
-            this.IncomeReport.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IncomeReport.Cursor = System.Windows.Forms.Cursors.Default;
-            this.IncomeReport.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.IncomeReport.Location = new System.Drawing.Point(3, 3);
-            this.IncomeReport.Name = "IncomeReport";
-            this.IncomeReport.ReportSource = this.CrystalReport1;
-            this.IncomeReport.Size = new System.Drawing.Size(762, 372);
-            this.IncomeReport.TabIndex = 0;
             // 
             // admin
             // 
